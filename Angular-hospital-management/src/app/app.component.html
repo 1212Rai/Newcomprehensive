@@ -1,0 +1,44 @@
+<div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <ul class = "navbar-nav">
+    <li class = "nav-item">
+      <a routerLink="" routerLinkActive="active" class="nav-link" >Home</a>
+  </li>
+      <li class = "nav-item">
+          <a routerLink="create-patient" routerLinkActive="active" class="nav-link" >Create Patient</a>
+      </li>
+      <li class = "nav-item">
+          <a routerLink="create-doctor" routerLinkActive="active" class="nav-link" >Create Doctor</a>
+      </li>
+      <li class = "nav-item">
+        <a routerLink="show-doctor" routerLinkActive="active" class="nav-link" >Doctor Information</a>
+    </li>
+    <li class = "nav-item">
+        <a routerLink="show-patient" routerLinkActive="active" class="nav-link" >Patient Information</a>
+    </li>
+    
+  </ul>
+</nav>
+<div id = bg></div>
+  
+
+<h1 class="text-center"> {{title}} </h1>
+
+<P>hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, 
+  both medical and surgical, of the sick and the injured; and for their housing during this process. 
+  The modern hospital also often serves as a centre for investigation and for teaching.</P>
+  <h1>Services</h1>
+  <p>Hospitals have long existed in most countries. Developing countries, which contain a large proportion of the world’s 
+    population, generally do not have enough hospitals, equipment, and trained staff to handle the volume of persons who need care. 
+    Thus, people in these countries do not always receive the benefits of modern medicine, 
+    public health measures, or hospital care, and they generally have lower life expectancies.</p>
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class = "footer">
+  <div class = "container">
+      
+  </div>
+</footer>
+</div>
